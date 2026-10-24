@@ -1,0 +1,25 @@
+# The gametests and the photo booth, as a mod of their own; never shipped.
+modLoader="javafml"
+loaderVersion="[1,)"
+license="AGPL-3.0-or-later"
+
+[[mods]]
+modId="ironhorse_gametest"
+version="1.0.0"
+displayName="Iron Horse gametests"
+authors="Chunkworks"
+description='''The Iron Horse's gametests and photo booth.'''
+
+[[dependencies.ironhorse_gametest]]
+    modId="ironhorse"
+    type="required"
+    versionRange="[1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.ironhorse_gametest]]
+    modId="vanillawheels"
+    type="required"
+    versionRange="[1.19,)"
+    ordering="AFTER"
+    side="BOTH"
