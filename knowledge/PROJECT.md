@@ -14,12 +14,14 @@ profile, one Blockbench project (the model as received, its slate parts made dye
 recipe, a lang file and an engine loop, with the protocol (1.19.0) nested inside. D-0001 says why it
 is as it is.
 
-## 1.0.0 — built 2026-10-23, not released
+## 1.0.0 — released 2026-10-24 in pack 1.93.0
 
 Built on Rusty's ask of 2026-10-23 with the Scrambler and Vanilla Wheels 1.19.0 (its D-0047: the
-horse's jump, the lean, moving parts). Gate (`./gradlew build`): 5 GameTests and the booth's checks
-green on the booth display in software. Waiting on Rusty's look at the booth photos and his go; no tag,
-no remote yet.
+horse's jump, the lean, moving parts). Released on Rusty's "go" after the booth photos: tag `v1.0.0`, the
+release gate (`clean build --no-build-cache` against the released VW 1.19.0 from mavenLocal) green, 5
+GameTests and 17 booth checks; sha1 `9ef36fc3` on GitHub and on the server (the server repo's
+`knowledge/releases/pack-1.93.0.md`). Public repo `the-rusty-shackleford/minecraft-iron-horse` created at the release. Not yet
+seen: anyone riding one on the box.
 
 ## Shape
 
